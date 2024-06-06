@@ -1,6 +1,6 @@
 provider "alicloud" {
-  access_key = var.access_key
-  secret_key = var.secret_key
+  access_key = var.TF_ALI_AK
+  secret_key = var.TF_ALI_SK
   # If not set, cn-beijing will be used.
   region = var.region
 }
